@@ -1,0 +1,223 @@
+#brand-logo {
+    font-size: 24px
+}
+
+#app-navbar {
+    background: linear-gradient(120deg, #0cf9e5, #5a84eb)
+}
+
+body {
+    background: #eee
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Qwigley', cursive;
+  font-family: 'Cormorant Unicase', serif;
+  /*    background: url(../images/background01.jpg) no-repeat scroll center 0/ cover;*/
+}
+
+h1 {
+  font-size: 3.9em;
+  font-family: 'Qwigley', cursive;
+  font-weight: normal;
+  color: #1DB3C0;
+  padding-bottom: 80px;
+  padding-right: 0px;
+}
+
+h2 {
+  font-size: 2.6rem;
+  font-family: 'Qwigley', cursive;
+  color: #1DB3C0;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #373738;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  /*  color: #11999E;*/
+  color: #373738;
+  font-size: 1rem;
+  Font-weight: lighter;
+}
+
+a {
+  color: #1DB3C0;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #373738;
+  text-align: left;
+  font-size: 0.85rem;
+}
+
+/*Navibar*/
+.navbar-custom {
+  background-color: #4DDDE0;
+  color: white;
+}
+
+/*back to top button*/
+#page_top {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+}
+
+#page_top a {
+  width: 60px;
+  height: 60px;
+  text-decoration: none;
+}
+
+#page_top a::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f139';
+  font-size: 50px;
+  color: #3fefee;
+}
+
+/*Divisions*/
+.containerTop {
+  /*    background-color: #fff;*/
+  position: relative;
+  padding-top: 60px;
+  width: auto;
+  margin-right: 12%;
+  margin-left: 12%;
+}
+.narrower{
+	padding: 0 20%;
+}
+
+.areasOfOffers {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.columnImageSmall {
+  width: 75%;
+}
+
+.containerOracle {
+  /*    background-color: #fff;*/
+  position: relative;
+  padding-top: 10px;
+  width: auto;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.solidBG {
+  background-color: #D3DBD9;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.containerOffers {
+  position: relative;
+  padding-top: 10px;
+  width: auto;
+  padding-bottom: 80px;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.containerAbout {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  width: auto;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.bannerBox {
+  margin-bottom: 50px;
+}
+
+.containerBG {
+  position: relative;
+}
+
+.containerBG h1 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+}
+
+.containerBG h4 {
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+}
+
+.containerFooter {
+  width: 100%;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-color: #BEACC9;
+  border-width: 7.5px;
+  width: 17%;
+  margin: 40px auto;
+}
+
+.contact-me {}
+
+.btnBlue {
+  background: #00fff9;
+  background-image: -webkit-linear-gradient(top, #00fff9, #11999E);
+  background-image: -moz-linear-gradient(top, #00fff9, #11999E);
+  background-image: -ms-linear-gradient(top, #00fff9, #11999E);
+  background-image: -o-linear-gradient(top, #00fff9, #11999E);
+  background-image: -webkit-gradient(to bottom, #00fff9, #11999E);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  padding: 7px;
+  margin-top: 30px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.areasOfOffers {}
